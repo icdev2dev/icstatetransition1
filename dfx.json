@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "canisters": {
+    "hello_heartbeat_backend": {
+      "type": "rust",
+      "package": "hello_heartbeat_backend",
+      "candid": "src/hello_heartbeat_backend/hello_heartbeat_backend.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  }
+}
